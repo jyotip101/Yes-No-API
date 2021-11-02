@@ -38,7 +38,7 @@ const answerShow = (ans) =>{
         clearResponse(); 
     }, 500);
 }
-// sjow error
+// show error
 const showError= () =>{
     errorMesg.innerHTML = "Type your question here";
     setTimeout(() => {

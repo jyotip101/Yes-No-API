@@ -1,8 +1,7 @@
 :root{
     --font-color: #ffffff;
     --shadow-color: #d6dced;
-    --main-color: #89ac5b;
-    /* --font-color: #2b3238; */
+    --main-color: #89ac5b; 
 }
 
 *{
@@ -51,18 +50,18 @@ input{
     padding: 0.3rem 0 0.3rem 0; 
     color:var(--font-color);
     font-size: 18px;
-    background-color: var(--main-color); 
-    /* box-shadow: 0px 5px #d6dced; */
+    background-color: var(--main-color);  
+
 }
+
 #errorMesg{
     padding: 0 0 1rem 0;
     
     color: var(--font-color);
-    font-family: serif;  
-    /* font-weight: 400;  */
+    font-family: serif; 
     font-style: normal;
-
     font-size: 16px;
+    transition: ease-in-out;
 }
 button{
     outline: none;
@@ -86,12 +85,10 @@ button{
                     -1px 1px 5px 5px var(--font-color);
 }
 
-p{
-    /* font-size: 40px; */
+#answer{ 
     color: var(--main-color);
     text-transform: capitalize; 
-    /* width: margin; */
-    /* display: block; */
+
 }
 
 .shakeAns{
@@ -100,6 +97,7 @@ p{
     backface-visibility: hidden;
     perspective: 1000px;
 }
+
 @keyframes shake {
     10%, 90% { 
         transform: translate3d(-1px, 0, 0); 
